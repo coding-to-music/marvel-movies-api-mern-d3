@@ -11,7 +11,8 @@
     "client/node_modules"
   ],
   "scripts": {
-    "build": "npm install && cd client && npm install && npm run build",
+    "badinstall": "npm install && cd client && npm install",
+    "build": "cd client && npm run build",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git add . && git commit -m Heroku && git push && git push heroku && heroku logs --tail --remote heroku"
