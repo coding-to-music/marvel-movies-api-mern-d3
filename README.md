@@ -14,9 +14,12 @@ by jlesage julielesage Julie Lesage https://github.com/julielesage
 
 https://github.com/julielesage/Marvel_backend
 
+## Environment Variables
+
 ```java
-const secret = process.env.JWT_SECRET;
-mongoose_1.default.connect(`${process.env.MONGODB_URI
+SECKEY=
+PUBLICKEY=
+MONGODB_URI="mongodb+srv://<userid>:<password>@cluster0.zadqe.mongodb.net/marvel-movies-api-mern-d3?retryWrites=true&w=majority"
 ```
 
 ## Deploying to Render
